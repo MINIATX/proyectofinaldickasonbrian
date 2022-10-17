@@ -10,6 +10,12 @@ https://miniatx.github.io/proyectofinaldickasonbrian/
 
 link subida al servidor
 
+proyectofinaldickasonbrian-miniatx.vercel.app
+
+proyectofinaldickasonbrian.vercel.app
+
+proyectofinaldickasonbrian-git-master-miniatx.vercel.app
+
 ### **Inspiracion en el proyecto** 
 
 La pagina se encuentra inspirada en un video juego llamado BloodBorne desarrollado para la consola Play Station 4 en su lanzamiento en el año 2015. El mismo es un desarrollo inspirado en otros juegos de dinamica Dark Soul, pero con fuertes diferencia que lo hacen mas dinamico y con un alto nivel de dificultad. Este se situa en una ciudad llamada Yharnam, donde la Iglesia de Sanacion descubrio un antidoto ( viales sangre) que cura todas las enfermedades y dolencias de aquellos que las padecen. Dicha sangre convierte a los pacientes en bestias, con el transcurso de la aplicacion del mismo. Lo que da lugar al surgimiento de los cazadores en respuesta a la constante aparicion de bestias, nuestro personaje sera un cazador que vive en una pesadilla en el transcurso del juego. Dicha pesadilla solo dura una noche de caceria en la que se desenvuelve toda la trama del juego.
