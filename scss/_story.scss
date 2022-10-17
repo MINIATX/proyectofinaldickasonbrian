@@ -1,0 +1,17 @@
+.imageStory {
+    border-radius: $borderImage;
+    border-color: $mainColor;
+    border-style: solid;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#story section h1, h2{
+    text-align: center;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.textStory{
+    text-align: justify;
+    }

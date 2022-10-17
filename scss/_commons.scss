@@ -1,0 +1,49 @@
+//commons
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto&display=swap');
+
+html{
+    font-size: $textGsize;
+}
+
+main section{
+    display: block;
+    padding: 4vw 4vw;
+}
+
+main section p{
+    color: $thirdColor;
+    font-size: $textSize;
+    line-height: $textHeight
+}
+
+h1{
+    color: $thirdColor;
+    text-decoration: none;
+    font-size: $textLg;
+    text-align: center;
+}
+
+h2{
+    color: $thirdColor;
+    text-decoration: none;
+    font-size: $textMd;
+}
+
+h3{
+    color: $thirdColor;
+    text-decoration: none;
+    font-size: $textMd;
+}
+
+h4{
+    display: block;
+    color: $thirdColor;
+    text-decoration: none;
+    font-size: $textSm;        
+}
+
+main img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

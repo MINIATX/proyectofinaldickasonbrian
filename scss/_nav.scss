@@ -1,0 +1,33 @@
+//nav
+nav{
+    ul{
+        align-items: center;
+
+        li a{
+            font-size: $textSm;
+            text-decoration: none;
+            color: $thirdColor;
+            background-image: linear-gradient(currentColor, currentColor);
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size .3s;
+            margin-left: 1rem;
+            &:hover{
+                color: $secondaryColor;
+                font-weight: 600;
+                background-size: 100% 2px;
+            }
+        }
+
+    }
+}
+
+.imageLogo{
+    height: 50px;
+    width: 50px;
+    border-radius: $borderImage;
+    border-color: $mainColor;
+    border-style: solid;
+    text-decoration: none;
+    }

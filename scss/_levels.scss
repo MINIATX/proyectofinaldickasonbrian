@@ -1,0 +1,51 @@
+//levels
+
+#levels ul{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    list-style: none;
+}
+
+.imageLevels {
+    width: 25rem;
+    height: 17rem;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: $borderImage;
+    border-color: $mainColor;
+    border-style: solid;
+        &:hover{
+        transform: scale(1.15);
+        transition:  transform 1.5s;
+    }
+}
+
+#levels h2{
+    font-size: $textXs;
+}
+
+#levels h1{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#levels h3{
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 0.8em;
+    margin-top: 0.8em;
+}
+
+#levels ol{
+    color: $thirdColor;
+    font-size: $textSize;
+    list-style: circle;
+    margin-left: 4rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    li{
+        font-size: $textXxs;
+    }
+}

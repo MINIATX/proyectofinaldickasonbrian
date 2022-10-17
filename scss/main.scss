@@ -1,0 +1,204 @@
+//imports
+@import "_reset";
+@import "_vars";
+@import "_commons";
+@import "_nav";
+@import "_story";
+@import "_levels";
+@import "_bosses";
+
+body{
+    background-color: $mainColor;
+}
+
+.textJustify{
+    text-align: justify;
+}
+
+#error main p {
+   color: $thirdColor;
+   font-size: $textLg;
+}
+
+.fot-a{
+    grid-area: fotoA;   
+}
+
+.fot-b{
+  grid-area: fotoB;
+}
+
+.fot-c{
+   grid-area: fotoC;
+}
+
+.fot-d{
+   grid-area: fotoD;
+}
+
+.fot-e{
+   grid-area: fotoE;
+}
+
+.fot-f{
+  grid-area: fotoF;
+}
+
+.foto-g{
+   grid-area: fotoG;
+}
+
+.fot-h{
+    grid-area: fotoH;
+ }
+
+ .fot-i{
+    grid-area: fotoI;
+ }
+
+ .fot-j{
+    grid-area: fotoJ;
+ }
+ 
+ .fot-k{
+    grid-area: fotoK;
+ }
+
+ .fot-l{
+    grid-area: fotoL;
+ }
+
+ .fot-m{
+    grid-area: fotoM;
+ }
+
+ .fot-n{
+    grid-area: fotoN;
+ }
+
+ .fot-o{
+    grid-area: fotoO;
+ }
+
+ .fot-p{
+    grid-area: fotoP;
+ }
+#galeria{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 16,300px;
+   gap: 0.5vw 0.5vw;
+   grid-template-areas: 
+   "fotoA"
+   "fotoB"
+   "fotoC"
+   "fotoD"
+   "fotoE"
+   "fotoF"
+   "fotoG"
+   "fotoK"
+   "fotoI"
+   "fotoJ"
+   "fotoH"
+   "fotoL"
+   "fotoM"
+   "fotoN"
+   "fotoO"
+   "fotoP";
+
+   @media (min-width:768px){   
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(9,400px);
+        grid-template-areas: 
+        "fotoF fotoF"
+        "fotoC fotoA"
+        "fotoG fotoD"
+        "fotoE fotoB"
+        "fotoH fotoI"
+        "fotoJ fotoK"
+        "fotoO fotoO"
+        "fotoL fotoM"
+        "fotoN fotoP"
+        ;        
+    }
+
+    @media (min-width:1200px){        
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(13,28vh);
+            grid-template-areas: 
+            "fotoA fotoA fotoB"
+            "fotoA fotoA fotoB"
+            "fotoC fotoD fotoD"
+            "fotoC fotoD fotoD"
+            "fotoE fotoF fotoG"
+            "fotoH fotoH fotoI"
+            "fotoH fotoH fotoI"
+            "fotoK fotoJ fotoJ"
+            "fotoL fotoM fotoM"
+            "fotoL fotoM fotoM"
+            "fotoN fotoN fotoP"            
+            "fotoO fotoO fotoO"
+            "fotoO fotoO fotoO";  
+
+            img{
+                filter: grayscale(2);
+                &:hover{
+                        filter:none
+                    }
+                }  
+    }  
+    
+}
+
+#input {
+    font-size: $textXs;
+    color: $thirdColor;
+    background-color: rgb(52, 48, 47);
+}
+
+.inputText{
+    font-size: $textXs;
+    color: $thirdColor;
+    background-color: rgb(52, 48, 47);
+}
+
+.inputForm{
+    border-radius: $borderImage;
+    border-color: $thirdColor;
+    border-style: solid;
+}
+
+.formSize{
+    font-size: $textXs;    
+    color:$thirdColor;
+    line-height: $textHeight;  
+    padding-bottom: 4vh; 
+}
+
+.joinusBottonx{
+    font-size: $textXs;
+    border-radius: 5px;
+    width: 50%;
+    height: 30%;
+    text-decoration: none;
+    background: linear-gradient(to bottom, $thirdColor,$fivethColor);
+    &:hover{
+        color: $secondaryColor;
+        font-weight: 600;
+        cursor: pointer;
+        background: linear-gradient(to top, $thirdColor,$fivethColor);
+    }
+
+}
+ body footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+    p{
+        font-size: $textSm;
+        color: $thirdColor;        
+    }
+ }
+ 

@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto&display=swap");
+* {
+  font-family: "Aboreto", "sans-serif";
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main section {
+  display: block;
+  padding: 4vw 4vw;
+}
+
+main section p {
+  color: rgb(249, 248, 244);
+  font-size: 1.8em;
+  line-height: 1.2em;
+}
+
+h1 {
+  color: rgb(249, 248, 244);
+  text-decoration: none;
+  font-size: 4em;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(249, 248, 244);
+  text-decoration: none;
+  font-size: 3em;
+}
+
+h3 {
+  color: rgb(249, 248, 244);
+  text-decoration: none;
+  font-size: 3em;
+}
+
+h4 {
+  display: block;
+  color: rgb(249, 248, 244);
+  text-decoration: none;
+  font-size: 2.2em;
+}
+
+main img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+nav ul {
+  align-items: center;
+}
+nav ul li a {
+  font-size: 2.2em;
+  text-decoration: none;
+  color: rgb(249, 248, 244);
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+  margin-left: 1rem;
+}
+nav ul li a:hover {
+  color: rgb(150, 20, 20);
+  font-weight: 600;
+  background-size: 100% 2px;
+}
+
+.imageLogo {
+  height: 50px;
+  width: 50px;
+  border-radius: 2rem;
+  border-color: rgb(4, 4, 4);
+  border-style: solid;
+  text-decoration: none;
+}
+
+.imageStory {
+  border-radius: 2rem;
+  border-color: rgb(4, 4, 4);
+  border-style: solid;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+#story section h1, h2 {
+  text-align: center;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.textStory {
+  text-align: justify;
+}
+
+#levels ul {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  list-style: none;
+}
+
+.imageLevels {
+  width: 25rem;
+  height: 17rem;
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 2rem;
+  border-color: rgb(4, 4, 4);
+  border-style: solid;
+}
+.imageLevels:hover {
+  transform: scale(1.15);
+  transition: transform 1.5s;
+}
+
+#levels h2 {
+  font-size: 1.5em;
+}
+
+#levels h1 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+#levels h3 {
+  text-align: center;
+  padding: 1em;
+  margin-bottom: 0.8em;
+  margin-top: 0.8em;
+}
+
+#levels ol {
+  color: rgb(249, 248, 244);
+  font-size: 1.8em;
+  list-style: circle;
+  margin-left: 4rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+#levels ol li {
+  font-size: 2rem;
+}
+
+#bosses section a {
+  display: flex;
+  justify-content: center;
+}
+
+.imageBosses {
+  width: 65%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  border-radius: 2rem;
+  border-color: rgb(4, 4, 4);
+  border-style: solid;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+@keyframes animateBosses {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#bosses h2 {
+  text-align: left;
+  text-transform: uppercase;
+  animation-name: animateBosses;
+  animation-duration: 5s;
+  animation-delay: 0.5s;
+  margin-left: 1vw;
+}
+
+#bosses ul {
+  list-style: none;
+  padding-bottom: 2rem;
+  animation-name: animateBosses;
+  animation-duration: 5s;
+  animation-delay: 0.5s;
+}
+#bosses ul li {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 0.3rem;
+}
+#bosses ul li a {
+  font-family: "Aboreto";
+  font-size: 2.2em;
+  color: rgb(249, 248, 244);
+  text-decoration: none;
+  padding-left: 4rem;
+  animation-name: animateBosses;
+  animation-duration: 5s;
+  animation-delay: 0.5s;
+}
+#bosses ul li a:hover {
+  color: rgb(150, 20, 20);
+  font-weight: 600;
+}
+
+#bosses strong {
+  background-color: rgb(150, 20, 20);
+}
+
+#bosses section figure {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+#bosses section figure div figcaption {
+  color: rgb(249, 248, 244);
+  text-decoration: none;
+  font-size: 3em;
+  margin-top: 2rem;
+}
+
+body {
+  background-color: rgb(4, 4, 4);
+}
+
+.textJustify {
+  text-align: justify;
+}
+
+#error main p {
+  color: rgb(249, 248, 244);
+  font-size: 4em;
+}
+
+.fot-a {
+  grid-area: fotoA;
+}
+
+.fot-b {
+  grid-area: fotoB;
+}
+
+.fot-c {
+  grid-area: fotoC;
+}
+
+.fot-d {
+  grid-area: fotoD;
+}
+
+.fot-e {
+  grid-area: fotoE;
+}
+
+.fot-f {
+  grid-area: fotoF;
+}
+
+.foto-g {
+  grid-area: fotoG;
+}
+
+.fot-h {
+  grid-area: fotoH;
+}
+
+.fot-i {
+  grid-area: fotoI;
+}
+
+.fot-j {
+  grid-area: fotoJ;
+}
+
+.fot-k {
+  grid-area: fotoK;
+}
+
+.fot-l {
+  grid-area: fotoL;
+}
+
+.fot-m {
+  grid-area: fotoM;
+}
+
+.fot-n {
+  grid-area: fotoN;
+}
+
+.fot-o {
+  grid-area: fotoO;
+}
+
+.fot-p {
+  grid-area: fotoP;
+}
+
+#galeria {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 16, 300px;
+  gap: 0.5vw 0.5vw;
+  grid-template-areas: "fotoA" "fotoB" "fotoC" "fotoD" "fotoE" "fotoF" "fotoG" "fotoK" "fotoI" "fotoJ" "fotoH" "fotoL" "fotoM" "fotoN" "fotoO" "fotoP";
+}
+@media (min-width: 768px) {
+  #galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(9, 400px);
+    grid-template-areas: "fotoF fotoF" "fotoC fotoA" "fotoG fotoD" "fotoE fotoB" "fotoH fotoI" "fotoJ fotoK" "fotoO fotoO" "fotoL fotoM" "fotoN fotoP";
+  }
+}
+@media (min-width: 1200px) {
+  #galeria {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(13, 28vh);
+    grid-template-areas: "fotoA fotoA fotoB" "fotoA fotoA fotoB" "fotoC fotoD fotoD" "fotoC fotoD fotoD" "fotoE fotoF fotoG" "fotoH fotoH fotoI" "fotoH fotoH fotoI" "fotoK fotoJ fotoJ" "fotoL fotoM fotoM" "fotoL fotoM fotoM" "fotoN fotoN fotoP" "fotoO fotoO fotoO" "fotoO fotoO fotoO";
+  }
+  #galeria img {
+    filter: grayscale(2);
+  }
+  #galeria img:hover {
+    filter: none;
+  }
+}
+
+#input {
+  font-size: 1.5em;
+  color: rgb(249, 248, 244);
+  background-color: rgb(52, 48, 47);
+}
+
+.inputText {
+  font-size: 1.5em;
+  color: rgb(249, 248, 244);
+  background-color: rgb(52, 48, 47);
+}
+
+.inputForm {
+  border-radius: 2rem;
+  border-color: rgb(249, 248, 244);
+  border-style: solid;
+}
+
+.formSize {
+  font-size: 1.5em;
+  color: rgb(249, 248, 244);
+  line-height: 1.2em;
+  padding-bottom: 4vh;
+}
+
+.joinusBottonx {
+  font-size: 1.5em;
+  border-radius: 5px;
+  width: 50%;
+  height: 30%;
+  text-decoration: none;
+  background: linear-gradient(to bottom, rgb(249, 248, 244), rgb(163, 154, 49));
+}
+.joinusBottonx:hover {
+  color: rgb(150, 20, 20);
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(to top, rgb(249, 248, 244), rgb(163, 154, 49));
+}
+
+body footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+}
+body footer p {
+  font-size: 2.2em;
+  color: rgb(249, 248, 244);
+}
+
+/*# sourceMappingURL=main.css.map */

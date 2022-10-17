@@ -1,0 +1,77 @@
+//bosses
+
+#bosses section a{    
+        display: flex;
+        justify-content: center;   
+}
+
+.imageBosses{
+    width: 65%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    border-radius: $borderImage;
+    border-color: $mainColor;
+    border-style: solid;  
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+@keyframes animateBosses{
+    from{opacity: 0}
+    to{opacity: 1}
+}
+
+#bosses h2{
+    text-align: left;
+    text-transform: uppercase;
+    animation-name: animateBosses;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    margin-left: 1vw;
+}
+
+#bosses ul{      
+    list-style: none;    
+    padding-bottom: 2rem;
+    animation-name: animateBosses;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+        li{
+            display: flex;
+            justify-content: flex-start;
+            padding-bottom: 0.3rem;
+            a{
+                font-family: 'Aboreto';
+                font-size: $textSm;
+                color: $thirdColor;
+                text-decoration: none;            
+                padding-left: 4rem;
+                animation-name: animateBosses;
+                animation-duration: 5s;
+                animation-delay: 0.5s;
+                &:hover{
+                    color: $secondaryColor;
+                    font-weight: 600;
+                }
+            }
+        }
+
+}
+
+#bosses strong{
+    background-color: $secondaryColor;
+}
+
+#bosses section figure{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    div figcaption{
+        color: $thirdColor;
+        text-decoration: none;
+        font-size: $textMd;
+        margin-top: 2rem;
+    }
+}
