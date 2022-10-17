@@ -2,7 +2,11 @@
 
 link Codigo
 
+https://github.com/MINIATX/proyectofinaldickasonbrian.git
+
 link Pages
+
+https://miniatx.github.io/proyectofinaldickasonbrian/
 
 link subida al servidor
 
